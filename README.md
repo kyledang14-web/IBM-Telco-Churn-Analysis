@@ -101,7 +101,15 @@ A logistic regression model was developed to predict customer churn:
 - Environment: Google Colab 
 
 ---
+## 📸 Sample Output
+
+<img width="439" height="183" alt="image" src="https://github.com/user-attachments/assets/0222c9d8-6341-4d9d-a120-73d6e0734283" />
+
+<img width="340" height="648" alt="image" src="https://github.com/user-attachments/assets/d28f9447-2003-4083-90ee-b5087e95c459" />
+
+---
 
 ## 👤 Author
-Kyle Dang  
-Management Information Systems | Data Analytics  
+Kyle Dang · Management Information Systems | Data Analytics  
+[LinkedIn](https://linkedin.com/in/kyledang04) · [GitHub](https://github.com/kyledang14-web)
+

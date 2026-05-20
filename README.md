@@ -23,14 +23,29 @@ The analysis focuses on customer demographics, service usage, and account inform
 
 ---
 
-## 📂 Dataset
-- Source: IBM Telco Customer Churn Dataset (Kaggle)  
-- Size: ~7,000 customers  
-- Features include:
-  - Customer demographics (tenure, senior citizen status)  
-  - Service usage (internet service, additional services)  
-  - Account details (contract type, payment method, charges)  
-  - Churn label and churn reason  
+## 🛠️ Tools & Technologies
+- Python (pandas, numpy)  
+- Data visualization: seaborn, matplotlib  
+- Machine learning: scikit-learn  
+- Environment: Google Colab
+
+---
+
+## 🔍 Key Insights
+
+- Customers with **month-to-month contracts** show significantly higher churn  
+- **Fiber optic users** have the highest churn rate (>40%)  
+- Customers using **electronic check** are more likely to churn  
+- Lack of **additional services** (e.g., online security, tech support) is associated with higher churn  
+
+---
+
+## 💡 Business Recommendations
+
+- Improve customer support experience and response time  
+- Offer competitive pricing and improve internet service performance  
+- Increase adoption of additional services 
+- Enhance network reliability and clearly communicate value  
 
 ---
 
@@ -62,27 +77,11 @@ Key analyses performed:
 
 ---
 
-## 🔍 Key Insights
-
-- Customers with **month-to-month contracts** show significantly higher churn  
-- **Fiber optic users** have the highest churn rate (>40%)  
-- Customers using **electronic check** are more likely to churn  
-- Lack of **additional services** (e.g., online security, tech support) is associated with higher churn  
-
 ### 📉 Fiber Optic Churn Analysis
 Further analysis revealed that churn among fiber optic customers is driven by:
 - Customer service issues (support experience)  
 - Competitive pressure (better pricing, speed, and data from competitors)  
 - Perceived value vs cost  
-
----
-
-## 💡 Business Recommendations
-
-- Improve customer support experience and response time  
-- Offer competitive pricing and improve internet service performance  
-- Increase adoption of additional services 
-- Enhance network reliability and clearly communicate value  
 
 ---
 
@@ -101,18 +100,14 @@ A logistic regression model was developed to predict customer churn:
 
 ---
 
-## 🛠️ Tools & Technologies
-- Python (pandas, numpy)  
-- Data visualization: seaborn, matplotlib  
-- Machine learning: scikit-learn  
-- Environment: Google Colab 
-
----
-## 📸 Sample Output
-
-<img width="439" height="183" alt="image" src="https://github.com/user-attachments/assets/0222c9d8-6341-4d9d-a120-73d6e0734283" />
-
-<img width="340" height="648" alt="image" src="https://github.com/user-attachments/assets/d28f9447-2003-4083-90ee-b5087e95c459" />
+## 📂 Dataset
+- Source: IBM Telco Customer Churn Dataset (Kaggle)  
+- Size: ~7,000 customers  
+- Features include:
+  - Customer demographics (tenure, senior citizen status)  
+  - Service usage (internet service, additional services)  
+  - Account details (contract type, payment method, charges)  
+  - Churn label and churn reason  
 
 ---
 
